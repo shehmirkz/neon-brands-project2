@@ -30,4 +30,9 @@ $('[data-text]').on('keyup', function(){
     ]
   });
 
+  // $('.main-carouse').flickity({
+  //   // options
+  //   cellAlign: 'left',
+  //   contain: true
+  // });
 

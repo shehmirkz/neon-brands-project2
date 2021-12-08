@@ -81,8 +81,8 @@ header {
 }
 
 .ring-header {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     position: absolute;
     top:0;
     left:0;
@@ -91,7 +91,7 @@ header {
     margin: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 70px 20px rgb(255 46 255 / 66%) !important;
-    z-index: 1;
+    z-index: -1;
 }
 .ring-header:before {
     content: '';
@@ -126,8 +126,8 @@ header {
 }
  /* INNER RING CREATED HERE */
 .inner-ring-header {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     position: absolute;
     top:0;
     left:0;
@@ -136,7 +136,7 @@ header {
     margin: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 70px 20px rgb(255 46 255 / 66%) !important;
-    z-index: 1;
+    z-index: -1;
 }
 .inner-ring-header:before {
     content: '';
@@ -170,7 +170,7 @@ header {
     -webkit-animation: pulse 1s linear 1s infinite;
 }
 
-#loading {
+/* #loading {
     -webkit-animation: rotation 2s infinite linear;
 }
 
@@ -181,7 +181,7 @@ header {
     to {
             -webkit-transform: rotate(359deg);
     }
-}
+} */
 
 
 
@@ -763,7 +763,7 @@ input:first-child {
     background: url(./images/work-harder.png) no-repeat;
     position: absolute;
     top: 95px;
-    left: -127px;
+    left: 65px;
     width: 138%;
     height: 100%;
 }
@@ -1288,6 +1288,7 @@ footer {
 }
 footer h4 {
     text-align: left;
+    padding-top: 68px;
 }
 footer h5 {
     text-align: left;
@@ -1396,7 +1397,63 @@ footer hr {
     padding-bottom: 70px;
 }
 
+
+
+.button-div {
+    position: relative;
+}
+.button-div button {
+    position: absolute;
+    top: 103px;
+    left: 251px;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+.button-div button:hover {
+    box-shadow: 0px 0px 25px 12px rgb(255 46 255 / 45%) !important;
+}
+
+
+
+/* Flickity Slider */
   
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 18%;
+  height: 376px;
+  margin-right: 5px;
+  background: #010101;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+  background: #010101;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: '';
+  line-height: 200px;
+  font-size: 80px;
+  color: #010101;
+}
+.flickity-slider {
+    position: absolute;
+    width: 99%;
+    height: 100%;
+}
 
 
 
