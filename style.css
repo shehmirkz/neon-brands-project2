@@ -573,6 +573,7 @@ input:first-child {
     position: relative;
     max-width: 100%;
     cursor: pointer;
+    border: none;
 }
 .card-hover {
     position: absolute;
@@ -874,36 +875,36 @@ input:first-child {
     cursor: pointer;
 }
 .mini-cards li .img-1:hover {
-    box-shadow: 0px 0px 21px 3px #a82e25, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #a82e25, 2px 2px 17px 4px #ffa29b;
     border-radius: 18px;
 }
 .mini-cards li .img-2:hover {
-    box-shadow: 0px 0px 21px 3px #027ab0, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #027ab0, 2px 2px 17px 4px #88d3f5;
     border-radius: 18px;
 }
 .mini-cards li .img-3:hover {
-    box-shadow: 0px 0px 21px 3px #00a4b9, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #00a4b9, 2px 2px 17px 4px #01bcd4;
     border-radius: 18px;
 }
 
 .mini-cards li .img-4:hover {
-    box-shadow: 0px 0px 21px 3px #921241, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #921241, 2px 2px 17px 4px #d41b5a;
     border-radius: 18px;
 }
 .mini-cards li .img-5:hover {
-    box-shadow: 0px 0px 21px 3px #fc5622, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #fc5622, 2px 2px 17px 4px #ec501f;
     border-radius: 18px;
 }
 .mini-cards li .img-6:hover {
-    box-shadow: 0px 0px 21px 3px #9b26af, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #9b26af, 2px 2px 17px 4px #dc52f3;
     border-radius: 18px;
 }
 .mini-cards li .img-7:hover {
-    box-shadow: 0px 0px 21px 3px #295d2b, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #295d2b, 2px 2px 17px 4px #88e98c;
     border-radius: 18px;
 }
 .mini-cards li .img-8:hover {
-    box-shadow: 0px 0px 21px 3px #59329f, 2px 2px 17px 4px #0000ff1a;
+    box-shadow: 0px 0px 21px 3px #59329f, 2px 2px 17px 4px #a173f1;
     border-radius: 18px;
 }
 .mini-cards li .img-9:hover {
@@ -1785,17 +1786,174 @@ body { font-family: sans-serif; }
         padding-right: 44px;
     }
     footer .fmono {
-        margin-right: 18px;
+        margin-left: 50px;
+        margin-right: 0;
     }
     .mx-lg-auto {
         margin-right: 0 !important;
         margin-left: 0 !important;
     }
+   
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1200px) {
-   
+    .nav-item {
+        margin-right: 30px;
+    }
+    .banner-neon {
+        padding: 15px 0 0 34px;
+    }
+    .banner-neon img {
+        width: 78% !important;
+    }
+    .ring-header {
+        width: 74%;
+        height: 66%;
+        position: absolute;
+        top: 9px;
+        left: 56px;
+        bottom: 0;
+        right: 0;
+    }
+    .banner-business h2 {
+        font-size: 29px;
+    }
+    .banner-business {
+        padding: 0 0 0 36px;
+    }
+    .pr img {
+        width: 100%;
+    }
+    .banner-form {
+        padding: 0 0px 50px 0px;
+    }
+    .portfolio-cards .card-body::before {
+        left: 319px;
+    }
+    .card-hover p {
+        text-align: center !important;
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+    .card-button .card-btn {
+        padding: 8px 30px;
+        margin-top: 20px;
+        width: 65% !important;
+    }
+    .card-hover h3 {
+
+        font-size: 26px;
+    }
+    .margin-top {
+        padding-top: 0px;
+    }
+    .ring {
+        left: -6px;
+    }
+    .ring-header {
+        left: 0px;
+    }
+    .banner-left {
+        padding: 30px 18px 0 38px;
+    }
+    .ask {
+        padding: 40px 0 0 0;
+    }
+    .ask h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+    .banner-button .banner-btn {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        width: 80%;
+        padding: 10px 32px;
+    }
+    .carousel {
+        margin-left: 35px;
+        padding-top: 6px;
+    }
+    .carousel-control-prev {
+        left: -25px !important;
+        right: 0 !important;
+        top: 161px !important;
+    }
+    .carousel-control-next {
+        right: 0;
+        top: 161px !important;
+        left: -4px !important;
+    }
+    .banner-button {
+        padding: 0 0 30px 33px;
+    }
+    .banner-title h2 {
+        font-size: 34px;
+        padding-top: 70px;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 80% !important;
+    }
+    .mini-position-cards {
+        position: absolute;
+        top: 100px;
+        margin-left: -14px;
+    }
+    .mini-cards li {
+        margin-left: -25px;
+    }
+    .tabs-nav .nav-pills li {
+        margin-left: 50px;
+    }
+    .ask-us h2 {
+        font-size: 24px !important;
+        text-align: left;
+    }
+    .center-slider {
+        background-color: #060428;
+        height: 100%;
+        padding: 40px 0;
+    }
+    .input-group {
+        width: 91%;
+    }
+    .banner-form-button {
+        left: 804px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .work-hard:before {
+        left: -147px;
+        top: 128px;
+    }
+    .challenge-btn {
+        padding: 0 0 0px 0 !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .challenge h2 {
+        font-size: 32px;
+        text-align: left;
+    }
+    .challenge-text p {
+        font-size: 12px;
+    }
+    .form-section {
+        padding-top: 26px;
+        padding-bottom: 193px;
+        padding-right: 333px;
+    }
+    footer .fmono {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    .mx-lg-auto {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
    
 
   
@@ -1804,7 +1962,169 @@ body { font-family: sans-serif; }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 992px) {
 
-  
+    .nav-item {
+        margin-right: 30px;
+    }
+    .banner-neon {
+        padding: 15px 0 0 34px;
+    }
+    .banner-neon img {
+        width: 78% !important;
+    }
+    .ring-header {
+        width: 74%;
+        height: 66%;
+        position: absolute;
+        top: 9px;
+        left: 56px;
+        bottom: 0;
+        right: 0;
+    }
+    .banner-business h2 {
+        font-size: 29px;
+    }
+    .banner-business {
+        padding: 0 0 0 36px;
+    }
+    .pr img {
+        width: 100%;
+    }
+    .banner-form {
+        padding: 0 0px 50px 0px;
+    }
+    .portfolio-cards .card-body::before {
+        left: 319px;
+    }
+    .card-hover p {
+        text-align: center !important;
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+    .card-button .card-btn {
+        padding: 8px 30px;
+        margin-top: 20px;
+        width: 65% !important;
+    }
+    .card-hover h3 {
+
+        font-size: 26px;
+    }
+    .margin-top {
+        padding-top: 0px;
+    }
+    .ring {
+        left: -6px;
+    }
+    .ring-header {
+        left: 0px;
+    }
+    .banner-left {
+        padding: 30px 18px 0 38px;
+    }
+    .ask {
+        padding: 40px 0 0 0;
+    }
+    .ask h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+    .banner-button .banner-btn {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        width: 80%;
+        padding: 10px 32px;
+    }
+    .carousel {
+        margin-left: 35px;
+        padding-top: 6px;
+    }
+    .carousel-control-prev {
+        left: -25px !important;
+        right: 0 !important;
+        top: 161px !important;
+    }
+    .carousel-control-next {
+        right: 0;
+        top: 161px !important;
+        left: -4px !important;
+    }
+    .banner-button {
+        padding: 0 0 30px 33px;
+    }
+    .banner-title h2 {
+        font-size: 34px;
+        padding-top: 70px;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 80% !important;
+    }
+    .mini-position-cards {
+        position: absolute;
+        top: 100px;
+        margin-left: -14px;
+    }
+    .mini-cards li {
+        margin-left: -25px;
+    }
+    .tabs-nav .nav-pills li {
+        margin-left: 50px;
+    }
+    .ask-us h2 {
+        font-size: 24px !important;
+        text-align: left;
+    }
+    .center-slider {
+        background-color: #060428;
+        height: 100%;
+        padding: 40px 0;
+    }
+    .input-group {
+        width: 91%;
+    }
+    .banner-form-button {
+        left: 804px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .work-hard:before {
+        left: -147px;
+        top: 128px;
+    }
+    .challenge-btn {
+        padding: 0 0 0px 0 !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .challenge h2 {
+        font-size: 32px;
+        text-align: left;
+    }
+    .challenge-text p {
+        font-size: 12px;
+    }
+    .form-section {
+        padding-top: 26px;
+        padding-bottom: 193px;
+        padding-right: 333px;
+    }
+    footer .fmono {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    .mx-lg-auto {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgb(247 244 244 / 63%);
+    }
+    .navbar-toggler-icon {
+        background: #d600b2;
+    }
       
 
 }
