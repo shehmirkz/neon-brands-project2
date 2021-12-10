@@ -188,11 +188,11 @@ header {
 footer .rings {
     top: 173px;
     left: -322px;
-   
 }
 footer .f-rings {
     position: absolute;
 }
+
 
 
 /* FORM SECTION BACK RINGS STARTS HERE */
@@ -871,10 +871,58 @@ input:first-child {
     width: 100%;
     cursor: pointer;
 }
-.mini-cards li img:hover {
-    box-shadow: 0px 0px 21px 3px red, 2px 2px 17px 4px blue;
+.mini-cards li .img-1:hover {
+    box-shadow: 0px 0px 21px 3px #a82e25, 2px 2px 17px 4px #0000ff1a;
     border-radius: 18px;
 }
+.mini-cards li .img-2:hover {
+    box-shadow: 0px 0px 21px 3px #027ab0, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-3:hover {
+    box-shadow: 0px 0px 21px 3px #00a4b9, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+
+.mini-cards li .img-4:hover {
+    box-shadow: 0px 0px 21px 3px #921241, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-5:hover {
+    box-shadow: 0px 0px 21px 3px #fc5622, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-6:hover {
+    box-shadow: 0px 0px 21px 3px #9b26af, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-7:hover {
+    box-shadow: 0px 0px 21px 3px #295d2b, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-8:hover {
+    box-shadow: 0px 0px 21px 3px #59329f, 2px 2px 17px 4px #0000ff1a;
+    border-radius: 18px;
+}
+.mini-cards li .img-9:hover {
+    box-shadow: 0px 0px 21px 3px #cddc39, 2px 2px 17px 4px #ff230073;
+    border-radius: 18px;
+}
+.mini-cards li .img-10:hover {
+    box-shadow: 0px 0px 21px 3px #536c77, 2px 2px 17px 4px #5e7b87;
+    border-radius: 18px;
+}
+.mini-cards li .img-11:hover {
+    box-shadow: 0px 0px 21px 3px #104f80, 2px 2px 17px 4px #015262;
+    border-radius: 18px;
+}
+.mini-cards li .img-12:hover {
+    box-shadow: 0px 0px 21px 3px #af8405, 2px 2px 17px 4px #634a02;
+    border-radius: 18px;
+}
+
+
+
 .mini-cards img {
     width: 100%;
     margin-right: -10px;
@@ -910,10 +958,10 @@ input:first-child {
 }
 
 .business-man {
-    width: 200%;
+    width: 175%;
     position: absolute;
-    left: -172px;
-    top: -131px;
+    left: -125px;
+    top: -47px;
 }
 
 
@@ -1577,7 +1625,7 @@ body { font-family: sans-serif; }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* Large desktops and laptops */
-@media (min-width: 1300px) and (max-width: 1700px ) {
+@media (min-width: 1300px) and (max-width: 1600px ) {
     .pr img {
         width: 100%;
     }
@@ -1638,7 +1686,7 @@ body { font-family: sans-serif; }
     }
     .banner-form-button {
         position: absolute !important;
-        left: 1081px;
+        left: 914px;
         right: .0;
         top: -1px;
         bottom: 0;
@@ -1649,9 +1697,19 @@ body { font-family: sans-serif; }
     .price-detail-body i {
         margin-right: 10px;
     }
-    /* .slick-slider {
-        overflow: hidden;
-    } */
+    .ring-header {
+        left: -5px;
+    }
+    .nav-pills {
+        text-align: center;
+        justify-content: center;
+    }
+    .challenge-btn {
+        padding: 0 0 0px 0 !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
@@ -1670,6 +1728,9 @@ body { font-family: sans-serif; }
     }
     .ring {
         left: -6px;
+    }
+    .ring-header {
+        left: 0px;
     }
     .banner-left {
         padding: 105px 142px 0 38px;
@@ -1694,6 +1755,30 @@ body { font-family: sans-serif; }
     .ask-us h2 {
         font-size: 28px !important;
         text-align: left;
+    }
+    .banner-form-button {
+        left: 950px;
+    }
+    .work-hard:before {
+        left: -110px;
+    }
+    .challenge-btn {
+        padding: 0 0 0px 0 !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section {
+        padding-top: 26px;
+        padding-bottom: 193px;
+        padding-right: 44px;
+    }
+    footer .fmono {
+        margin-right: 18px;
+    }
+    .mx-lg-auto {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 }
 
